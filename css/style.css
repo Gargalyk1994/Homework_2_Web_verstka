@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Lemon";
+    src: url(../fonts/Lemon/Lemon-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+ }
+
+ .menu{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+ }
+
+ .menu:hover{
+    color: black;
+    border: 1px dotted black;
+    border-radius: 2px;
+ }
+
+ .menu:active{
+    color: aqua;
+ }
+
+ .main__title{
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+ }
+
+ .text_p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+ }
+
+ .text_h2{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+ }
+
+ .main_image{
+    border-radius: 10px;
+    width: 300px;
+ }
+
+ .in{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+ }
+
+ .button{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+ }
+
+ .for_margins_1{
+    margin: 15px;
+    padding: 25px;
+ }
+
+ .for_margins_2{
+    margin: 30px;
+    padding: 12px 25px;
+ }
+
+ .for_margins_3{
+    font-family: "Lemon", sans-serif;
+    margin: 40px;
+    padding: 33px 25px;
+
+ }
+
+ .text_in_span:first-child{
+    font-size: 25px;
+    font-family: "Lemon", sans-serif;
+ }
+
+ .text_in_span:nth-child(2){
+    text-transform: uppercase;
+ }
+
+ 
